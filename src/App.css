@@ -1,0 +1,68 @@
+/* App.css */
+body, html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  border-radius: 25px;
+  border: solid;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.displayPanel {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displayPanel input {
+  border-radius: 10px;
+  width: 25vw;
+  height: 10vh;
+}
+
+.calculatorInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  /* Add any styles for the rows of buttons */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.inputButton {
+  -moz-osx-font-smoothing: inherit;
+  -webkit-font-smoothing: inherit;
+  border: solid;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  width: 6vw;
+  height: 7vh;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1.8vw;
+}
