@@ -1,8 +1,15 @@
 import React from 'react';
 
 function Button(props) {
+
+    const handleClick = () => {
+        console.log(`${props.onButtonClick}`);
+    };
+
     return(
-        <button className={`inputButton c${props.onButtonClick}`}>{props.onButtonClick}</button>
+        <button className={`inputButton ${props.setClassName}`} onClick={handleClick}>
+            {props.onButtonClick}
+        </button>
     );
 }
 
